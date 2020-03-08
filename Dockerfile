@@ -17,7 +17,8 @@ ENV MAP="TheIsland" \
     QUERYPORT="27015" \
     RCONPORT="32330" \
     MAXPLAYERS="50" \
-    EXTRACONFIGOPTIONS="" \
+    EXTRACONFIG="" \
+    EXTRAFLAGS="" \
     ACTIVEEVENT="None" \
     CLUSTERID=""
 
