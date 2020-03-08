@@ -12,10 +12,12 @@ RUN mkdir -p /home/steam/ark/ShooterGame/Saved/SavedArks \
 
 ENV MAP="TheIsland" \
     SESSIONNAME="Clustered Rancher-Based ARK Server on Kubernetes" \
+    ADMINPW="Change This Password" \
     PORT="7777" \
     QUERYPORT="27015" \
     RCONPORT="32330" \
     MAXPLAYERS="50" \
+    EXTRACONFIGOPTIONS="" \
     ACTIVEEVENT="None" \
     CLUSTERID=""
 

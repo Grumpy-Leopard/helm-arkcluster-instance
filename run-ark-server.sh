@@ -2,7 +2,8 @@
 
 ARKSERVERCOMMAND="/home/steam/ark/ShooterGame/Binaries/Linux/ShooterGameServer"
 ARKSAVEFOLDER="/home/steam/ark/ShooterGame/Saved"
-CONFIGSTRING="\"$MAP?listen?Multihome=0.0.0.0?AltSaveDirectoryName=$MAP?SessionName=$SESSIONNAME?MaxPlayers=$MAXPLAYERS?QueryPort=$QUERYPORT?RCONPort=$RCONPORT?Port=$PORT\""
+CONFIGSTRING="\"$MAP?listen?Multihome=0.0.0.0?AltSaveDirectoryName=$MAP?SessionName=$SESSIONNAME?ServerAdminPassword=$ADMINPW?MaxPlayers=$MAXPLAYERS?QueryPort=$QUERYPORT?RCONPort=$RCONPORT?Port=$PORT$EXTRACONFIGOPTIONS\""
+
 
 if [ -n "$CLUSTERID" ]; then
     echo "Setting Cluster config for ID: $CLUSTERID";
